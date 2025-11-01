@@ -77,4 +77,31 @@ combine_dataframes <- function() {
 
 combine_dataframes()
 
+# Function 5: Work with a CSV file (Stretch Challenge)
+work_with_csv <- function() {
+  cat("\n--- Working with CSV File ---\n")
+  
+  # Create a small dataframe
+  data <- data.frame(
+    Product = c("Apples", "Bananas", "Cherries"),
+    Quantity = c(10, 20, 15),
+    Price = c(1.2, 0.8, 2.5)
+  )
+  
+  # Save dataframe to CSV
+  write.csv(data, "products.csv", row.names = FALSE)
+  cat("CSV file 'products.csv' created successfully!\n")
+  
+  # Read it back in
+  loaded_data <- read.csv("products.csv")
+  cat("Data read from CSV:\n")
+  print(loaded_data)
+  
+  # Do something simple with it
+  total_value <- sum(loaded_data$Quantity * loaded_data$Price)
+  cat("Total inventory value: $", total_value, "\n")
+}
+
+work_with_csv()
+
 cat("\n--- R Fundamentals Practice Complete ---\n")

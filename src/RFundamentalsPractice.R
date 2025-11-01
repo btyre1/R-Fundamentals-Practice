@@ -34,3 +34,27 @@ loop_through_list <- function() {
 
 loop_through_list()
 
+# Function 3: Create and analyze a dataframe
+analyze_dataframe <- function() {
+  # Create a simple dataframe
+  students <- data.frame(
+    Name = c("Alice", "Bob", "Charlie", "Diana"),
+    Age = c(20, 22, 19, 21),
+    Score = c(85, 90, 78, 92),
+    Passed = c(TRUE, TRUE, FALSE, TRUE)
+  )
+  
+  cat("\nStudent Data:\n")
+  print(students)
+  
+  # Compute summary statistics
+  cat("\nAverage Score:", mean(students$Score), "\n")
+  
+  # Filter passing students
+  passing <- students[students$Passed == TRUE, ]
+  cat("\nPassing Students:\n")
+  print(passing)
+}
+
+analyze_dataframe()
+

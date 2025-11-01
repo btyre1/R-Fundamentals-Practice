@@ -22,6 +22,15 @@ demonstrate_data_types <- function() {
 
 demonstrate_data_types()
 
+# Function 2: Loop through list and print values
+loop_through_list <- function() {
+  fruits <- list("Apple", "Banana", "Cherry", "Mango")
+  
+  cat("\nLooping through fruits:\n")
+  for (item in fruits) {
+    cat("- ", item, "\n")
+  }
+}
 
-
+loop_through_list()
 

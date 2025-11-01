@@ -58,3 +58,23 @@ analyze_dataframe <- function() {
 
 analyze_dataframe()
 
+# Function 4: Combine results from multiple dataframes
+combine_dataframes <- function() {
+  df1 <- data.frame(ID=1:3, Value=c(10, 20, 30))
+  df2 <- data.frame(ID=4:6, Value=c(40, 50, 60))
+  
+  all_dfs <- list(df1, df2)
+  
+  cat("\nCombining dataframes using a loop:\n")
+  combined <- data.frame()
+  
+  for (d in all_dfs) {
+    combined <- rbind(combined, d)
+  }
+  
+  print(combined)
+}
+
+combine_dataframes()
+
+cat("\n--- R Fundamentals Practice Complete ---\n")

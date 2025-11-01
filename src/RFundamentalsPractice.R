@@ -1,14 +1,16 @@
+# This comment is AI-generated:
 # R Fundamentals Practice Functions
 # Author: Bryce Tyre
 # Description: A simple set of R functions that show off core programming basics
 # Date: 2025-11-01
 
-cat("\nStarting R Fundamentals Demo...\n\n")
+cat("\nStarting R Fundamentals Demo...\n\n") 
 
+# This comment is AI-generated:
 # Function 1: Basic data type demonstration
 # Shows off different types of data R can handle and prints them to the console
 demonstrate_data_types <- function() {
-  cat("\n--- Demonstrating Data Types ---\n")
+  cat("\n--- Demonstrating Data Types ---\n") # This is AI-generated
 
   num <- 42                     # numeric
   text <- "Hello, R!"           # character (string)
@@ -27,10 +29,11 @@ demonstrate_data_types <- function() {
 # Call the first function to run it
 demonstrate_data_types()
 
+# This comment is AI-generated:
 # Function 2: Loop through list and print values
 # Uses a for-loop to go through a list and print each element
 loop_through_list <- function() {
-  cat("\n--- Looping Through List ---\n")
+  cat("\n--- Looping Through List ---\n") # This is AI-generated
 
   fruits <- list("Apple", "Banana", "Cherry", "Mango") # make a simple list
   
@@ -43,10 +46,11 @@ loop_through_list <- function() {
 # Run the loop function
 loop_through_list()
 
+# This comment is AI-generated:
 # Function 3: Create and analyze a dataframe
 # Builds a dataframe, does some analysis, and prints filtered results
 analyze_dataframe <- function() {
-  cat("\n--- Analyzing Dataframe ---\n")
+  cat("\n--- Analyzing Dataframe ---\n") # This is AI-generated
 
   # Create a mini dataset of student info
   students <- data.frame(
@@ -71,10 +75,11 @@ analyze_dataframe <- function() {
 # Run the dataframe analysis
 analyze_dataframe()
 
+# This comment is AI-generated:
 # Function 4: Combine results from multiple dataframes
 # Loops through multiple dataframes, merges them, and prints the result
 combine_dataframes <- function() {
-  cat("\n--- Combining Dataframes ---\n")
+  cat("\n--- Combining Dataframes ---\n") # This is AI-generated
 
   df1 <- data.frame(ID=1:3, Value=c(10, 20, 30)) # first small dataframe
   df2 <- data.frame(ID=4:6, Value=c(40, 50, 60)) # second small dataframe
@@ -95,10 +100,11 @@ combine_dataframes <- function() {
 # Run the dataframe combiner
 combine_dataframes()
 
+# This comment is AI-generated:
 # Function 5: Work with a CSV file (Stretch Challenge)
 # Creates a dataframe, saves it to CSV, reads it back, and calculates total value
 work_with_csv <- function() {
-  cat("\n--- Working with CSV File ---\n")
+  cat("\n--- Working with CSV File ---\n") # This is AI-generated
   
   # Create a simple dataset for products
   data <- data.frame(
@@ -124,10 +130,11 @@ work_with_csv <- function() {
 # Run the CSV demo
 work_with_csv()
 
+# This comment is AI-generated:
 # Function 6: Use a case (switch) coding block (Also Stretch Challenge)
 # Uses R’s switch statement to act like a basic calculator
 use_case_block <- function(operation, a, b) {
-  cat("\n--- Case Statement Demo ---\n")
+  cat("\n--- Case Statement Demo ---\n") # This is AI-generated
   
   # Pick which operation to perform using a switch
   result <- switch(operation, add = a + b, subtract = a - b, multiply = a * b, divide = ifelse(b != 0, a / b, "Error: Cannot divide by zero"), "Invalid operation"  # default case
@@ -143,4 +150,4 @@ use_case_block("add", 10, 5)
 use_case_block("divide", 20, 4)
 use_case_block("oops", 5, 2)  # invalid operation to show default case
 
-cat("\n--- R Fundamentals Practice Complete ---\n")
+cat("\n--- R Fundamentals Practice Complete ---\n") # This is AI-generated

@@ -11,10 +11,6 @@ The software consists of multiple functions that showcase core R concepts:
 
 The purpose of this project is to build a foundation in R, learn how to structure code effectively, and gain practical experience working with R’s syntax and standard data structures.
 
-{Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running and a walkthrough of the code. Focus should be on sharing what you learned about the language syntax.}
-
-[Software Demo Video](http://youtube.link.goes.here)
-
 # Development Environment
 This project was developed using **Visual Studio Code** with the R extension installed. The programming language is **R**, and all functionality is implemented using **base R functions**, so no external libraries are required. For package management and future reproducibility, the `renv` package was optionally used to create a project-specific environment.
 

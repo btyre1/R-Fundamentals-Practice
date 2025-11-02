@@ -16,22 +16,18 @@ The purpose of this project is to build a foundation in R, learn how to structur
 [Software Demo Video](http://youtube.link.goes.here)
 
 # Development Environment
-
-{Describe the tools that you used to develop the software}
-
-{Describe the programming language that you used and any libraries.}
+This project was developed using **Visual Studio Code** with the R extension installed. The programming language is **R**, and all functionality is implemented using **base R functions**, so no external libraries are required. For package management and future reproducibility, the `renv` package was optionally used to create a project-specific environment.
 
 # Useful Websites
-
-{Make a list of websites that you found helpful in this project}
-
-- [Web Site Name](http://url.link.goes.here)
-- [Web Site Name](http://url.link.goes.here)
+- [R Documentation](https://www.r-project.org/about.html)
+- [Overview of R](https://www.simplilearn.com/what-is-r-article#:~:text=R%20offers%20a%20wide%20variety,for%20data%20importing%20and%20cleaning.)
+- [R in Visual Studio Code](https://code.visualstudio.com/docs/languages/r#:~:text=Getting%20started&text=For%20Windows%20users%2C%20it%20is,Install%20languageserver%20in%20R.&text=Install%20the%20R%20extension%20for,R%20file%20and%20start%20coding.)
+- [YouTube R for Beginners Video](https://www.youtube.com/watch?v=FY8BISK5DpM)
+- [YouTube R Tutorial Video](https://www.youtube.com/watch?v=yZ0bV2Afkjc&t=950s)
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-
-- Item 1
-- Item 2
-- Item 3
+- Expand the project to include more advanced data manipulation using packages like `dplyr`  
+- Add visualization features using `ggplot2` to graph data from dataframes and CSV files  
+- Include more interactive functionality for users, such as input prompts or a menu system  
+- Integrate real-world datasets from online sources using web scraping or APIs 

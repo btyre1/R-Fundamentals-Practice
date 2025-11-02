@@ -1,10 +1,15 @@
 # Overview
+I am always looking to strengthen my understanding of different programming languages and explore their unique features. This project is designed to demonstrate the fundamentals of the R programming language, including data types, loops, dataframes, and working with CSV files.
 
-{Important! Do not say in this section that this is college assignment. Talk about what you are trying to accomplish as a software engineer to further your learning.}
+The software consists of multiple functions that showcase core R concepts:  
+- Handling and displaying different data types (numeric, character, logical, vectors, lists)  
+- Looping through lists to display elements  
+- Creating, analyzing, and filtering dataframes  
+- Combining multiple dataframes  
+- Working with CSV files to read, write, and perform basic calculations  
+- Using a `switch` case block to perform simple operations  
 
-{Provide a description of the software that you wrote to demonstrate the R language.}
-
-{Describe your purpose for writing this software.}
+The purpose of this project is to build a foundation in R, learn how to structure code effectively, and gain practical experience working with R’s syntax and standard data structures.
 
 {Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running and a walkthrough of the code. Focus should be on sharing what you learned about the language syntax.}
 

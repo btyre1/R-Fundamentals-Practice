@@ -6,7 +6,6 @@
 
 cat("\nStarting R Fundamentals Demo...\n\n") 
 
-# This comment is AI-generated:
 # Function 1: Basic data type demonstration
 # Shows off different types of data R can handle and prints them to the console
 demonstrate_data_types <- function() {
@@ -29,7 +28,6 @@ demonstrate_data_types <- function() {
 # Call the first function to run it
 demonstrate_data_types()
 
-# This comment is AI-generated:
 # Function 2: Loop through list and print values
 # Uses a for-loop to go through a list and print each element
 loop_through_list <- function() {
@@ -46,7 +44,6 @@ loop_through_list <- function() {
 # Run the loop function
 loop_through_list()
 
-# This comment is AI-generated:
 # Function 3: Create and analyze a dataframe
 # Builds a dataframe, does some analysis, and prints filtered results
 analyze_dataframe <- function() {
@@ -75,7 +72,6 @@ analyze_dataframe <- function() {
 # Run the dataframe analysis
 analyze_dataframe()
 
-# This comment is AI-generated:
 # Function 4: Combine results from multiple dataframes
 # Loops through multiple dataframes, merges them, and prints the result
 combine_dataframes <- function() {
@@ -100,7 +96,6 @@ combine_dataframes <- function() {
 # Run the dataframe combiner
 combine_dataframes()
 
-# This comment is AI-generated:
 # Function 5: Work with a CSV file (Stretch Challenge)
 # Creates a dataframe, saves it to CSV, reads it back, and calculates total value
 work_with_csv <- function() {
@@ -130,7 +125,6 @@ work_with_csv <- function() {
 # Run the CSV demo
 work_with_csv()
 
-# This comment is AI-generated:
 # Function 6: Use a case (switch) coding block (Also Stretch Challenge)
 # Uses R’s switch statement to act like a basic calculator
 use_case_block <- function(operation, a, b) {
